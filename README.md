@@ -43,3 +43,8 @@ Set up your redirect.php like so, using Karma.php:
     //all the rest of your regular phishing sites
     //..
 ```
+
+Note: In order for this to work, you need to set up your dns spoofing rules to capture all requests:
+```
+172.16.42.1 *
+```
